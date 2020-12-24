@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume}[2015/05/25 An elegant Résumé class]
-\LoadClass[10.5pt]{article}
+\LoadClass[11pt]{article}
 
 % disable indent globally
 \setlength{\parindent}{0pt}

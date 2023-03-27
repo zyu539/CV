@@ -27,7 +27,7 @@
 
 \section{Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item \textbf{Programming Languages:} Java, Python, Go, C++, C, JavaScript
+  \item \textbf{Programming Languages:} Java, Python, Go, C++, C, TypeScript
   \item \textbf{Other Knowledge:} Cloud Development, PyTorch, Spark, Kubernetes, Databases (e.g., DynamoDB, MySQL)
   \item \textbf{Interests:} Software Engineering, Cloud Computing, Distributed System, Machine Learning
 \end{itemize}
@@ -38,7 +38,7 @@
 Working in the Follow team under Shopping Experience for customers to follow brands and to receive exclusive benefits, including brand recommendation and bringing exclusive deals
 \begin{itemize}
   \item Develop and maintain services that manage all identifiers and metadata of brands across Amazon, serving as the source of truth for brands as followable entites
-  \item Build glue jobs and pipelines for data migration between Services while guarantee data quality and service availability.
+  \item Build pipelines for data migration between services while guarantee data quality and service availability.
 \end{itemize}
 \end{flushleft}
 
@@ -73,9 +73,8 @@ Use Categorical Variational AutoEncoders + Deep Survival Machines (a fully-param
 \datedsubsection{\textbf{Cloud-Based Twitter User Recommendation System}}{\textit{Cloud Computing Project} [2021]}
 A cloud-based web service which recommend some close friends of a input user with similar interests to you.
 \begin{itemize}
-    \item Use Spark to process over 1TB Twitter dataset, clean and pre-calculate interactive \& common hashtag \linebreak \& keyword score between contact users (users who have retweeted or reply to each other)
-    \item Processed Dataset stored in MariaDB on Amazon Relational Database Service
-    \item A web service respond to user request was deployed on AWS EKS, reaching throughput of 16000 requests/sec,\linebreak within \$1.2/hour budget.
+    \item Use Spark to ETL 1TB Twitter dataset, calculate interactive \& common hashtag \& keyword score between contact users (users who have retweeted or replied), and store in AWS RDS
+    \item A service respond to user request deployed on AWS EKS, reaching throughput of 16K RPS, within \$1.2/hour budget.
 \end{itemize}
 
 \datedsubsection{\textbf{A Naive Raft Consensus for Distributed Systems with Golang}}{\textit{Distributed System Project} [2021]}
